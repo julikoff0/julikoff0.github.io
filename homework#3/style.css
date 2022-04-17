@@ -1,0 +1,367 @@
+.main-page {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+}
+.header {
+    display: flex;
+    background-color: white;    
+    border-radius: 3px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 70%;   
+}
+.primary-button button {
+    background-color: rgb(54, 0, 119);
+    color: white;
+    border: 1px solid grey;
+    padding: 10px;    
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.buttons button {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;    
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.account {
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;  
+}
+.nickname {    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nickname a {
+    text-decoration: none;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.top {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.top div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.farm-content {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    gap: 10% 5%;
+    justify-content: center;
+}
+.main-first-block {    
+    border: 3px solid gold;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    gap: 1%;
+    grid-template-rows: 33.3% 38.3% 28.3%;
+    grid-template-areas: 
+    "sum-blnc sum-blnc sum-blnc sum-blnc faq"
+    "ttl-blnc ttl-blnc .  .  . "
+    "ttl-sum ttl-sum .  .  .  ";
+}
+.main-first-block-buttons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.summ-balance{
+    grid-area: sum-blnc;
+    font-size: 14px;
+    margin: auto 0px;
+    align-items: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.total-balance {
+    grid-area: ttl-blnc;
+    display: flex;
+}
+.total-balance-value {
+    grid-area: ttl-blnc-val;
+    font-size: 12px;
+    vertical-align: bottom;
+    margin: auto;
+}
+.total-summ {
+    grid-area: ttl-sum;
+    font-size: 12px;
+}
+.faq {
+    grid-area: faq;
+    justify-self: end;
+    margin: auto 0px;
+}
+.faq img {
+    height: 12px;
+    width: 12px;
+}
+.main-block {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 24% 19% 54%;
+    gap: 5% 2%;
+    grid-template-rows: 33.3% 38.3% 28.3%;
+    grid-template-areas: 
+    "crpt-name crpt-name-short grph"
+    "hshrt hshrt-value grph"
+    "crpt-ttl crpt-ttl grph";
+}
+#green {
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+#binance {
+    border: 3px solid gold;
+    background-color: white;
+    color: gold;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.crypto-name {
+    grid-area: crpt-name;
+    margin: auto;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.crypto-name-short {
+    grid-area: crpt-name-short;
+    margin: auto;
+    font-size: 14px;
+    align-items: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hashrate {
+    display: flex;
+    grid-area: hshrt;
+    align-items: center;
+}
+.hashrate img{
+    height: 10px;
+    width: 10px;
+}
+.hashrate-value {
+    grid-area: hshrt-value;
+    margin: auto 0px;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+.crypto-total {
+    grid-area: crpt-ttl;
+    font-size: 12px;
+    margin: auto;
+    align-items: center;
+}
+.crypto-graph {
+    grid-area: grph;
+    align-items: center;
+    justify-self: end;
+}
+.crypto-graph img {
+    width: 80%;
+
+}
+.buy-hashrate-button {
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0px ;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.crypto-currencies {
+    display: flex;
+    flex-basis: 50%;
+}
+.cryptoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cryptoes p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.amount {
+    display: flex;
+    flex-basis: 100%;   
+    margin: 30px 0px 10px;
+}
+.amount-block {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.earning-button button {
+    color: white;
+    padding: 10px;
+    background-color: rgb(54, 0, 119);    
+    border-radius: 20px;
+}
+.items {
+    display: flex;
+}
+p {
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif
+}
+h2,h3,h4 {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.earn-and-balance {
+    display: flex;
+    flex-basis: 100%;
+    margin-top: 10px;
+}
+.graph {
+    flex-basis: 70%;
+}
+.graph img {
+    width: 97.5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+.profit-forecast {      
+    flex-basis: 30%;
+    margin-left: 10px;
+
+}
+.profit-forecast-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+.last-block {
+    display: flex;
+    flex-basis: 100%;
+}
+.account-statistick {
+    flex-basis: 70%;
+}
+.statistick-tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.statistick-tabs button {
+    padding: 5px;
+}
+.statistick-tablet {
+    flex-basis: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.my-contracts {
+    flex-basis: 30%;
+    margin-left: 10px;
+}
+.contract-block {    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+.show-all-button {
+    display: flex;
+    justify-content: center;
+}
+.show-all-button button {
+    background-color: white;
+    border-radius: 10px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  thead th:nth-child(1) {
+    width: 40%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 30%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  .tariff {
+    display: flex;
+  }
+  .tariff p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #active {
+      color: green;
+  }
+  #expired {
+      color: darkred;
+  }
+  .blocks-names {
+      color: gray;
+  }
