@@ -1,0 +1,127 @@
+.mainPage {
+    width: 75%;
+    max-width: 1100px;
+    min-width: 300px;
+    background-color: aliceblue;
+    margin: auto;
+}
+.header {
+    margin-bottom: 10px;       
+}
+.headerTop {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50%;
+    justify-content: space-between;
+    border: 2px dotted black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo {
+    margin: 10px; 
+}
+.logo img{
+    margin: 10px;
+    size: 50%;
+    max-width: 60px;
+    max-height: 60px;
+}
+.authButtons {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.authButtons a:hover {
+    transform: scale(1.1);
+    background-color: #3bbaba99;
+    border-radius: 10%;
+}
+.authButtons a {
+    padding: 10px;    
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    text-decoration: none;
+}
+.navigation {    
+    display: flex;
+    justify-content: center;
+    border: 2px dotted black;
+    gap: 10%;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navBlock:hover {
+    transform: scale(1.1);
+    background-color: #3bbaba99;
+    border-radius: 10%;
+}
+.navBlock {
+    padding: 10px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    border: 2px dotted black;
+}
+.menu {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px dotted black;
+}
+.menu a {    
+    text-decoration: none;
+}
+.menuSelection {
+    font-weight: 600;
+    color: white;
+    background-color: #3bbaba;
+    margin: 5px;
+    padding: 5px;
+    border: 2px dotted black;
+}
+.article {
+    padding: 20px;
+    display: flex;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+}
+.articleTitle {    
+    display: flex;
+    font-weight: 700;
+    flex-basis: 100%;
+}
+.authorAndDate {
+    display: flex;
+    justify-content: end;
+    flex-basis: 100%;
+}
+.articleAuthor {
+    margin: 10px;
+}
+.articleDate {
+    margin: 10px;
+}
+.pagesNavigation {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.previousPage {
+
+}
+.nextPage {
+
+}
