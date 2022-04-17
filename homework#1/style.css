@@ -1,0 +1,85 @@
+.main-page {
+    background-color: rgb(255, 252, 248);
+    width: 80%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    flex-wrap: wrap; 
+}
+.title {
+    display: flex;
+    font-size: 42px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#yellow {
+    margin: 5px 5px 0px 5px;
+    color: #fcbd4d;
+}
+#black {    
+    margin: 5px 5px 0px 5px;
+}
+.help-button {
+    margin: 7px 20px;
+}
+.button{
+    background-color: rgb(227, 166, 11);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 10px;
+}
+.button:hover {    
+    transform: scale(1.1);
+}
+.hashtag p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.description {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.animal-item {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.animal-item:hover {    
+    transform: scale(1.1);
+}
+.animal-item a {
+    text-decoration: none;
+}
+.animal-item img {
+    border-radius: 10px;
+      
+}
+.animal-item h4 {
+    font-family: ROBOTOSLAB-REGULAR, serif;
+    font-size: 18px;
+    margin: 7px;
+    color: black;
+}
+.animal-item p {
+    font-family: ROBOTOSLAB-REGULAR, serif;
+    font-size: 16px;
+    color: gray;
+    margin: 7px;
+}
