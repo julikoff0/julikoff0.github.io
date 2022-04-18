@@ -1,0 +1,147 @@
+body {
+    background-color: #f5f5f7;
+}
+.container {
+    max-width: 1204px;
+    margin: 10px auto;
+    background-color: white;
+    justify-self: center;
+    border-radius: 5px;
+}
+#site img {
+    height: 18px;
+    margin-right: 10px;
+}
+.top {    
+    border-bottom: 1px solid rgba(28, 28, 28, 0.1);
+}
+.buttons {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0px 15px;
+}
+.buttons button {
+    height: 36px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    border: 0;
+}
+#question {    
+    margin-left: 10px;
+    padding: 0px 22px 0px 20px;
+}
+#site {
+    
+    padding: 0px 20px 0px 16px;
+}
+.buttons a {
+    display: flex;
+    line-height: 18px;
+
+}
+#question img {
+    height: 18px;
+    width: 18.5px;
+    margin-right: 10px;
+}
+.left {
+    height: 299.094px;
+    padding: 30px 0px 40px 100px;
+}
+.left img {
+    height: 100px;    
+}
+.center {
+    box-sizing: border-box;
+    max-height: 299.094px;
+    padding: 30px 0px 40px 30px;
+    flex-grow: 1;  
+}
+.title {
+    margin: 2px 0px 12.3px;
+    letter-spacing: 0.1px;
+}
+.contacts-phone{
+    height: 21.8px;
+}
+.contacts div {
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    line-height: 16.8px;
+    letter-spacing: normal;
+}
+.contacts img {
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+}
+.description {
+    margin-top: 26px;
+}
+.description p {
+    width: 600px;
+}
+.more-button {
+    margin-top: 19px;
+    margin-left: 4px;
+}
+.more-button button{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px dashed black;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+    padding: 0;
+    font-family: Lato, Arial, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+.right {
+    padding: 40px 30px;
+    width: 315px;  
+    box-sizing: border-box;
+}
+.right-text {
+    margin: 20px 130px 0 0;
+}
+.content {
+    display: flex;
+}
+p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Roboto, Arial, sans-serif;
+}
+a {
+    color: #1c1c1c;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+.big {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    font-family: Roboto, Arial, sans-serif;    
+}
+.grey {
+    color: rgba(0, 0, 0, 0.5)    ;    
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+
