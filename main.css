@@ -20,6 +20,8 @@ body {
     transform: scale(1.05);
 }
 a {
+    text-align: center;
+    width: 100%;
     text-decoration: none;
     color: darkorchid;
     font-family: Roboto, Arial, sans-serif;
