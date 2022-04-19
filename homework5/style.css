@@ -23,8 +23,13 @@ i {
     margin-right: 5px;
 }
 
-a {
+p {
+  margin: auto;
+}
+
+a {  
     text-decoration: none;
+    display: flex;
     color: rgb(177, 177, 177);
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
@@ -55,8 +60,27 @@ a {
     margin-right: 40px;
 }
 
+.lesson-duration p:hover {
+  text-decoration: underline;
+  color: rgb(133, 132, 132);
+}
+
+.remind-button p:hover {
+  text-decoration: underline;
+  color: rgb(133, 132, 132);
+}
+
+.lesson-type p:hover {
+  text-decoration: underline;
+  color: rgb(133, 132, 132);
+}
+
 .watch-button {
     margin-right: 40px;    
+}
+.watch-button p:hover {
+  text-decoration: underline;
+  color: rgb(255, 123, 0);
 }
 
 .watch-button a {
@@ -122,11 +146,11 @@ a {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: orange;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px orange;
   }
   
   input:checked + .slider:before {
