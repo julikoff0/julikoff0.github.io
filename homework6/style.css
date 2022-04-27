@@ -12,7 +12,15 @@
   src: url('./fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
   url('./fonts/ProximaNova-Bold.woff') format('woff'),
   url('./fonts/ProximaNova-Bold.ttf') format('truetype');
-  }
+}
+
+@font-face {
+  font-family: 'Intro Bold';
+  src: url('./fonts/Intro-Bold.eot');
+  src: url('./fonts/Intro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Intro-Bold.woff') format('woff'),
+  url('./fonts/Intro-Bold.ttf') format('truetype');
+}
 
 body {
   background: #E5E5E5;
@@ -97,7 +105,7 @@ s
 }
 
 .info>h1 {
-  font-family: 'Intro Demo', sans-serif;
+  font-family: 'Intro Bold', sans-serif;
   color: #FFFFFF;
   font-size: 38px;
   line-height: 53px;
@@ -105,7 +113,7 @@ s
 }
 
 .banner h2 {
-  font-family: 'Intro Demo', sans-serif;
+  font-family: 'Intro Bold', sans-serif;
   color: #FF8A00;
   font-size: 24px;
   line-height: 31px;
