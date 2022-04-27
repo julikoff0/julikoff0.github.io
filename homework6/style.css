@@ -15,11 +15,13 @@
 }
 
 @font-face {
-  font-family: 'Intro Bold';
-  src: url('./fonts/Intro-Bold.eot');
-  src: url('./fonts/Intro-Bold.eot?#iefix') format('embedded-opentype'),
-  url('./fonts/Intro-Bold.woff') format('woff'),
-  url('./fonts/Intro-Bold.ttf') format('truetype');
+  font-family: "Intro"; 
+  src: url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.eot"); 
+  src: url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.svg#Intro") format("svg"); 
 }
 
 body {
@@ -97,27 +99,30 @@ p, h1, h2 {
   display: flex;
   background-image: url(./images/banner.png);
   padding-left: 246px;
+  padding-right: 321px;
   justify-content: space-between;
 }
-s
+
 .banner>img {
-  margin: 34px 321px 0px 0px;
+  margin-top: 34px;
 }
 
 .info>h1 {
-  font-family: 'Intro Bold', sans-serif;
+  font-family: 'Intro';
   color: #FFFFFF;
   font-size: 38px;
   line-height: 53px;
   margin-top: 100px;
+  text-transform: uppercase;
 }
 
 .banner h2 {
-  font-family: 'Intro Bold', sans-serif;
+  font-family: 'Intro';
   color: #FF8A00;
   font-size: 24px;
   line-height: 31px;
   margin-top: 10px;
+  text-transform: uppercase;
 }
 .banner button {
   background-color: transparent;
@@ -372,7 +377,7 @@ main {
 footer {
   display: flex;
   background-color: #0099DD;
-  padding: 33px 244px;
+  padding: 33px 244px 38px 244px;
 }
 
 .footer-column-school{
@@ -409,14 +414,6 @@ footer {
   margin-bottom: 12px;
 }
 
-/* .column-name-contact {
-  font-family: 'Proxima Nova Bold';
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
-  margin-bottom: 12px;
-} */
-
 .footer-line {
   width: 30px;
   height: 3px;
@@ -441,6 +438,6 @@ footer {
 }
 
 .basement {
-  max-height: 47px;
+  height: 47px;
   background-color: #222B3A;
 }
