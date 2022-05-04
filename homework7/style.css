@@ -1,0 +1,290 @@
+.main-page {
+  max-width: 1200px;
+  margin: 0px auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+
+/*---HEADER---*/ 
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px dashed darkcyan;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: all 0.15s ease-in;
+}
+
+header img:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.photo-and-fullname {
+  display: flex;
+  font-size: 24px;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  margin: auto 0px;
+  align-items: center;
+}
+
+nav p {
+  font-size: 24px;
+}
+
+nav a {
+  margin: 0px 10px;
+  transition: all 0.1s ease-in;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+nav i {
+  font-size: 30px;
+  color: rgb(53, 45, 105);
+}
+
+.header p, h2 {
+  margin: auto 20px;
+  font-family: 'Koulen', cursive;
+  letter-spacing: 1px;
+  color: rgb(53, 45, 105);
+}
+
+/*---MAIN INFORMATION---*/
+
+p, h3, li, a{
+  margin: 0px;
+  color: rgb(53, 45, 105);
+}
+
+main {
+  font-family: 'Kanit', sans-serif;
+  background-color: #e0f7f7;
+  padding: 10px;
+  justify-content: center;
+}
+
+.work-exp {
+  padding: 10px 25px;
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.work-exp:hover {
+  transform: scale3d(1, 1.1, 1);
+  background-color: #b0ecec;  
+}
+
+.work-exp ul {
+  list-style-type: circle;
+  margin: auto;
+  padding: 0px;
+  list-style-position: inside;
+}
+
+a {  
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills ul {
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hard {
+  padding: 10px 25px;
+  flex-basis: 40%;
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.hard:hover {
+  transform: scale3d(1, 1.05, 1);
+  background-color: #b0ecec;  
+}
+
+.soft {
+  padding: 10px 25px;
+  align-self: flex-start;
+  flex-basis: 40%;
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.soft:hover {
+  transform: scale3d(1, 1.07, 1);
+  background-color: #b0ecec;  
+}
+
+.lang {
+  padding: 10px 25px; 
+  flex-basis: 40%; 
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.3s ease-in;
+  align-self: flex-start;
+}
+
+.lang:hover {
+  transform: scale3d(1, 1.1, 1);
+  background-color: #b0ecec;  
+}
+
+.lang ul {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+
+.knowledge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.education {
+  padding: 10px 25px;
+  flex-basis: 40%;  
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.education:hover {
+  transform: scale3d(1, 1.1, 1);
+  background-color: #b0ecec;  
+}
+
+.education ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contacts {
+  padding: 10px 25px;
+  background-color: #c0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.3s ease-in;
+}
+
+.contacts:hover {
+  transform: scale3d(1, 1.1, 1);
+  background-color: #b0ecec;  
+}
+
+.contacts ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---ADAPTIVE LAYOUT---*/
+
+@media screen and (max-width: 900px) {
+  .soft {
+    align-self: stretch;
+  }
+
+  .lang {
+    align-self: stretch;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  nav p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hard {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .soft {
+    flex-basis: 100%;
+    text-align: center;    
+  }
+
+  .lang {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .education {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  
+  nav {
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  nav a {
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .photo-and-fullname {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  header h2 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px){
+  nav a {
+    margin: 0px 10px;
+  }  
+}
