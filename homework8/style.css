@@ -154,7 +154,6 @@ p, h1, h2 {
 
 .all-progress {
   display: flex;
-  flex-wrap: wrap;
   box-sizing: content-box;
   height: 53px;
 }
@@ -515,6 +514,10 @@ footer {
     display: none;
   }
 
+  .info {
+    width: 100%;
+  }
+
   .info > h1 {
     font-size: 32px;
     margin-top: 20px;
@@ -535,10 +538,11 @@ footer {
   }
 
   .actual-progress {
-    width: 60%;  
+    width: 65%;  
   }
 
   .all-progress {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height: 53px;
@@ -546,7 +550,8 @@ footer {
 
   .completed-themes {
     display: flex;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
     align-items: center;
     margin-top: 1px;
   }
@@ -641,7 +646,7 @@ footer {
   }
 
   .current-theme-progress {
-    width: 72px;
+    width: 87px;
     height: 7px;
     margin: 2px;
   }
