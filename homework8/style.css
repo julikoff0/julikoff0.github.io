@@ -1,0 +1,681 @@
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('./fonts/ProximaNova-Regular.eot');
+  src: url('./fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts//ProximaNova-Regular.woff') format('woff'),
+  url('./fonts/ProximaNova-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('./fonts/ProximaNova-Bold.eot');
+  src: url('./fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/ProximaNova-Bold.woff') format('woff'),
+  url('./fonts/ProximaNova-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Intro"; 
+  src: url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.eot"); 
+  src: url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/04ad13fe22565febef6a35d5cbb1edf9.svg#Intro") format("svg"); 
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.all-page {
+  max-width: 1600px;
+  margin: 0px auto;
+  background-color: #E5E5E5;
+}
+
+header {
+  background-color: #FFFFFF;
+  display: flex;
+  height: 72px;
+  padding-left: 246px;
+  padding-right: 220px;
+}
+
+.burger-menu {
+  position: absolute;
+  display: none;
+}
+
+.burger-menu button {
+  background-color: transparent;
+  border: none;
+}
+
+.logo {
+  margin: 19px 0px;
+}
+
+nav {  
+  margin-left: 365px;
+  display: flex;
+}
+
+nav a { 
+  margin: auto 0px;
+  margin-right: 37px;
+  text-decoration: none;
+  color: #222B3A;
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  height: 100%;
+  padding: 26px 1px;
+  box-sizing: border-box;
+}
+
+#current-page {
+  border-bottom: 2px solid orange;
+}
+
+.login-button {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.login-button i {
+  margin-right: 7px;
+}
+
+.login-button a {  
+  margin: auto 0px;
+  text-decoration: none;
+  color: #222B3A;
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  
+}
+
+p, h1, h2 {
+  margin: 0px;
+}
+
+.banner {
+  display: flex;
+  background-image: url(./images/banner.png);
+  padding-left: 246px;
+  padding-right: 321px;
+  justify-content: space-between;
+}
+
+.banner>img {
+  margin-top: 34px;
+}
+
+.info>h1 {
+  font-family: 'Intro';
+  color: #FFFFFF;
+  font-size: 38px;
+  line-height: 53px;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.banner h2 {
+  font-family: 'Intro';
+  color: #FF8A00;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.banner button {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  color: #FFFFFF;
+  padding: 12px 40px;
+  font-family: 'Proxima Nova Regular';
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 32px;
+  transition: all 0.3s ease-in;
+}
+
+.banner button:hover {
+  background-color: #0099DD;
+  transform: scale3d(1.05, 1.1, 1.1);
+}
+
+.all-progress {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  height: 53px;
+}
+
+.full-progress {
+  background-color: #F3F3F3;
+  width: 468px;
+  height: 15px;  
+  box-sizing: border-box;
+  border-radius: 3px;  
+  padding: 3px;
+  margin-top: 70px;
+}
+
+.actual-progress {
+  width: 56%;
+  height: 9px;
+  background: #296DCE;
+  border-radius: 2px;
+  box-sizing: border-box;
+
+}
+
+.all-themes {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.all-themes  h1{
+  color: #FFFFFF;
+  font-size: 36px;
+  font-family: 'Proxima Nova Regular';
+  letter-spacing: 1.5px;
+}
+
+.all-themes  p{
+  margin-left: 9px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular';
+}
+
+.completed-themes {
+  display: flex;
+  margin-left: 155px;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.completed-themes  h1{
+  color: #FFFFFF;
+  font-size: 36px;
+  font-family: 'Proxima Nova Regular';
+}
+
+.completed-themes  p{
+  margin-left: 9px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular';
+}
+
+main {
+  padding: 30px 245px 57px 245px;
+  background-color: #FFFFFF;
+}
+
+.bread-crumbs {
+  display: flex;
+  padding: 14px 0px;
+  padding-left: 246px;
+  background-color: #FFFFFF;
+}
+
+.bread-crumbs > .line {
+  width: 22px;
+  height: 2px;
+  margin: auto 15px;
+  background-color: #979FAD;
+}
+
+.bread-crumbs a {
+  text-decoration: none;
+  color: #979FAD;
+  font-size: 16px;
+  font-family: 'Proxima Nova Bold'
+}
+
+.bread-crumbs p {
+  color: #323232;
+  font-size: 16px;
+  font-family: 'Proxima Nova Bold';
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding-left: 246px;
+}
+
+.course-header-left-part {
+  display: flex;
+  align-items: center;
+}
+
+.course-header-left-part > .line {  
+  width: 22px;
+  height: 2px;
+  margin-right: 14px;
+  background-color:#222B3A;
+}
+
+.course-header-left-part p {
+  color: #323232;
+  font-size: 18px;
+  font-family: 'Proxima Nova Bold'
+}
+
+.course-header button {
+  background-color: transparent;
+  color: #F78000;
+  border: 1.3px solid #FF8A00;
+  padding: 12px 14px;
+  border-radius: 3px;
+  margin: 27px 245px 27px 0px;
+  font-size: 14px;
+  font-family: 'Proxima Nova Bold';
+  transition: all 0.3s ease-in;
+}
+
+.course-header button:hover {
+  background-color: bisque;
+  transform: scale3d(1.05, 1.1, 1.1);
+}
+
+.course-header i {
+  margin-left: 25px;
+  width: 9px;
+  height: 9px;
+}
+
+.theme {
+  display: flex;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  margin-bottom: 19px;
+}
+
+.theme-number {
+  font-family: 'Proxima Nova Bold';
+  width: 145px;
+  padding: 15px 35px;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  color: #E1E1E1;
+}
+
+.theme-info h2 {
+  font-family: 'Proxima Nova Bold';
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: #1092CB;
+  margin-top: 24px;
+}
+
+.age {
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #979FAD;
+  margin-top: 5px;
+}
+
+.age img {
+  margin-right: 8px;
+}
+
+.description {
+  font-family: 'Proxima Nova Regular';
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 12px;
+  color: #696969;
+}
+
+.available-from {
+  display: flex;
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  line-height: 27px;
+  color: #696969;
+  margin: 7px 0px 25px 2px;
+}
+
+.available-from .date {
+  margin-left: 9px; 
+  color: #F78000;
+  text-decoration: underline;
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.progress-scale {
+  font-family: 'Proxima Nova Bold';
+  margin: 27px 32px 0px 100px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #323232;
+
+}
+
+.all-theme-progress {
+  width: 15px;
+  height: 121px;
+  background-color: #F3F3F3;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 5px auto;
+  align-items: flex-end;
+}
+
+.current-theme-progress {
+  width: 9px;
+  height: 87px;
+  background: linear-gradient(90deg, #0099DD 0%, #178EC2 100%);
+  border-radius: 1px;
+  margin: 30px 2px 2px 2px;
+
+}
+
+footer {
+  display: flex;
+  background-color: #0099DD;
+  padding: 33px 244px 38px 244px;
+}
+
+.footer-column-school{
+  display: flex;
+  flex-direction: column;
+  margin-right: 130px;
+  margin-top: 4px;
+}
+
+.footer-column-material {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+  margin-top: 4px;
+}
+
+.footer-column-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 110px;
+  margin-top: 4px;
+}
+
+.footer-column-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-name {
+  font-family: 'Proxima Nova Bold';
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.footer-line {
+  width: 30px;
+  height: 3px;
+  background: #FFFFFF;  
+  margin-bottom: 25px;
+}
+
+.footer-line-contact {
+  width: 30px;
+  height: 3px;
+  background: #FFFFFF;  
+  margin-bottom: 29px;
+}
+
+.footer-link {
+  font-family: 'Proxima Nova Bold';
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-link img {
+  display: none;
+}
+
+.basement {
+  height: 47px;
+  background-color: #222B3A;
+}
+
+/*------------ADAPTIVE LAYOUT------------*/
+
+@media screen and (max-width: 375px){
+  header {
+    height: 55px;
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  .logo {
+    margin: auto 0px;
+  }
+
+  .logo img {
+    height: 26px;
+  }
+
+  nav { 
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    position: relative;
+    margin: auto 0px;
+  }
+
+  .banner {
+    padding: 40px 18px;
+    background-image: url(./images/banner_mobile.png);
+  }
+
+  .banner img {
+    display: none;
+  }
+
+  .info > h1 {
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .banner button {    
+    margin-top: 26px;
+  }
+
+  .full-progress {
+    width: 100%;
+  }
+
+  .actual-progress {
+    width: 60%;  
+  }
+
+  .all-progress {
+    display: flex;
+    justify-content: space-between;
+    height: 53px;
+  }
+
+  .completed-themes {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 1px;
+  }
+
+  .bread-crumbs {
+    display: none;
+  }
+
+  .course-header {
+    display: block;
+    padding: 25px 18px;
+  }
+
+  .course-header button {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .theme {
+    padding: 15px;
+    display: grid;
+    grid-template-areas: 
+    "num progress"
+    "info info";
+  }
+
+  .theme-number {
+    grid-area: num;
+    font-size: 40px;
+    padding: 0px;
+    height: 50px;
+    width: auto;
+    text-align: start;
+  }
+
+  .num {
+    height: 50px;
+    line-height: normal;    
+  }
+
+  .age {
+    font-size: 14px;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+
+  .theme-info {
+    grid-area: info;
+  }
+
+  .theme-info h2 {
+    letter-spacing: normal;
+    font-size: 19px;
+    margin-top: 10px;
+  }
+
+  .available-from {
+    line-height: 24px;
+    margin: 17px 0px 0px 0px;
+  }
+  
+  .available-from .date {
+    margin-left: 9px; 
+    line-height: 24px;
+  }
+
+  .progress-scale {
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: progress;
+    display: grid;
+    grid-template-areas: 
+    "skale perc";
+  }
+
+  .percent {
+    grid-area: perc;
+  }
+
+  .all-theme-progress {
+    grid-area: skale;
+    width: 157px;
+    height: 13px;
+  }
+
+  .current-theme-progress {
+    width: 72px;
+    height: 7px;
+    margin: 2px;
+  }
+
+  main {
+    padding: 25px 18px;
+  }
+
+  .progress-scale {
+    margin: 0px;
+  }
+
+  footer {
+    padding: 47px 33px;
+  }
+
+  .footer-column-school{
+    display: none;
+  }
+  
+  .footer-column-material {
+    display: none;
+  }
+  
+  .footer-column-info {
+    display: none;
+  }
+
+  .footer-link {
+    display: flex;
+  }
+
+  .footer-link img {
+    display: block;
+    margin-right: 15px;
+  }
+}
