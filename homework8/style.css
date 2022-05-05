@@ -505,6 +505,10 @@ footer {
     margin: auto 0px;
   }
 
+  .burger-menu:hover {
+    transform: scale(0.9);
+  }
+
   .banner {
     padding: 40px 18px;
     background-image: url(./images/banner_mobile.png);
