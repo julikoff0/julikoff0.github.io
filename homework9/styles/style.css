@@ -1,0 +1,74 @@
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: cornsilk;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .show {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  border: 2px solid palegoldenrod;
+  background-color: aliceblue;
+  text-align: center;
+  color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin: 20px 0px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+main .show:hover {
+  -webkit-transform: scale3d(1.05, 1.1, 1);
+          transform: scale3d(1.05, 1.1, 1);
+}
+
+main input[type='text'] {
+  width: 50%;
+  text-align: center;
+  font-size: 22px;
+}
+
+main input[type='text']::-webkit-input-placeholder {
+  color: rgba(95, 158, 160, 0.5);
+}
+
+main input[type='text']:-ms-input-placeholder {
+  color: rgba(95, 158, 160, 0.5);
+}
+
+main input[type='text']::-ms-input-placeholder {
+  color: rgba(95, 158, 160, 0.5);
+}
+
+main input[type='text']::placeholder {
+  color: rgba(95, 158, 160, 0.5);
+}
+
+main input[type='button'] {
+  width: 10%;
+  text-align: center;
+  font-size: 18px;
+  background-color: aquamarine;
+  color: blue;
+  border-radius: 7%;
+  margin: 0px 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+main input[type='button']:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=style.css.map */
