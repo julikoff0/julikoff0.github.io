@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: rgb(185, 185, 185);
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .fridge {
+            margin: 50px;
+            position: relative;
+
+            .closed {
+                display: block;                                                
+            }
+
+            .open {
+                display: none;
+            }
+
+            .kolbasa {
+                display: none;
+                height: 100px;
+                position: absolute;    
+                height: 100px;    
+                top: 175px;    
+                left: 75px;
+            }            
+        }
+
+        .text {            
+            display: none;
+            justify-content: center;
+            flex-basis: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        .control-buttons {
+            display: none;
+            justify-content: center;
+            flex-basis: 100%;
+            margin: 10px 0px;
+
+            button {
+                margin: 0px 10px;
+                background-color: rgb(131, 197, 115);
+                padding: 10px;
+                border-radius: 10px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+
+            button[name="take"] {
+                display: none;                
+                background-color: rgb(98, 194, 238);
+            }
+            
+            button[name="buy"] {
+                display: none;                
+                background-color: rgb(238, 101, 101);
+
+                a {
+                    text-decoration: none;      
+                    color: black;          
+                }
+            }
+            
+        }
+    }
+}

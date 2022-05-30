@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #b9b9b9;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .fridge {
+  margin: 50px;
+  position: relative;
+}
+
+body main .fridge .closed {
+  display: block;
+}
+
+body main .fridge .open {
+  display: none;
+}
+
+body main .fridge .kolbasa {
+  display: none;
+  height: 100px;
+  position: absolute;
+  height: 100px;
+  top: 175px;
+  left: 75px;
+}
+
+body main .text {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+body main .control-buttons {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin: 10px 0px;
+}
+
+body main .control-buttons button {
+  margin: 0px 10px;
+  background-color: #83c573;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body main .control-buttons button[name="take"] {
+  display: none;
+  background-color: #62c2ee;
+}
+
+body main .control-buttons button[name="buy"] {
+  display: none;
+  background-color: #ee6565;
+}
+
+body main .control-buttons button[name="buy"] a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
