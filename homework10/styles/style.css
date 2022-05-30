@@ -5,7 +5,7 @@ body {
 body main {
   max-width: 1600px;
   margin: 0px auto;
-  height: 1200px;
+  height: 100vh;
   background-color: azure;
   position: relative;
   border: 1px solid black;
@@ -28,10 +28,10 @@ body main .article {
 body main .button {
   background-color: aliceblue;
   border: 3px solid grey;
-  position: fixed;
+  position: absolute;
   padding: 10px 30px;
   bottom: 50px;
-  right: 10%;
+  right: 50px;
 }
 
 @media screen and (max-width: 1440px) {
