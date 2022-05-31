@@ -33,6 +33,7 @@ searchButton.addEventListener ('click', () => {
         console.log ('kolbasa is finded')
         takeButton.style.display = 'block';        
         text.innerHTML = 'Колбаса найдена, нажмите кнопку "Взять", чтобы взять её';
+        kolbasa.style.display = "block";
     } else {
         text.innerHTML = 'Колбасы нет в холодильнике, чтобы приобрести её нажми кнопку "Купить"';
         buyButton.style.display = 'block';          
@@ -44,7 +45,8 @@ takeButton.addEventListener ('click', () => {
     searchButton.style.display = 'block';
     text.innerHTML = 'Вы взяли колбасу, не забудьте закрыть холодильник';
     productList.pop();
-    takeButton.style.display = 'none';    
+    takeButton.style.display = 'none';   
+    kolbasa.style.display = "none"; 
 });
 
 
