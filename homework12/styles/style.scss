@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+
+    main {
+        max-width: 1600px;
+        margin: 0px auto;
+        height: 100vh;
+        background-color: azure;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        box-sizing: border-box;
+
+
+        .area {
+            width: 1000px;
+            height: 700px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            margin: 50px;
+            border: 2px solid black;
+            box-sizing: content-box;
+
+            .move {
+                height: 50px;
+                width: 50px;
+                position: absolute;
+                background-color: rgb(38, 128, 98);
+                border: 2px solid black;
+                box-sizing: border-box;
+                top: 325px;
+                left: 475px;
+            }
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-areas: 
+            ". up ."
+            "left down right";
+
+            button {
+                margin: 2px;
+                height: 40px;
+                width: 40px;
+                background-color: rgb(182, 182, 182);
+                border: 1px solid black;
+
+                &:active {
+                    transform: scale(0.95);
+                }
+            }
+
+            button[ name="up"] {
+                grid-area: up;
+            }
+
+            button[ name="left"] {
+                grid-area: left;
+            }
+
+            button[ name="down"] {
+                grid-area: down;
+            }
+
+            button[ name="right"] {
+                grid-area: right;
+            }
+        }
+    }
+}
