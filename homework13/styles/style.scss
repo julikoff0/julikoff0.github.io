@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 10px;
+
+    main {
+        margin: 100px auto;
+        max-width: 1500px;
+        background-color: aquamarine;
+        border: 1px solid black;
+        padding: 20px;
+        position: relative;
+
+        .cat {
+            position: relative;
+            left: 625px;
+            box-sizing: content-box;
+            width: 250px;
+            transition: all 1.5s linear;
+
+            img {                
+                height: 200px;
+            }
+        }        
+    }
+}
