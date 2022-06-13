@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Home work #15</title>
+    <meta charset="utf=8">
+    <meta http-eguiv="X-UA-Compatible" content="IE=edga">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./styles/style.css" rel="stylesheet">
+    </head>
+<body>
+    <main>
+        <div class="form">
+            <h3>Мои планы на сегодня:</h3>           
+            <input type="text" name="duty" placeholder="Что нужно сделать?" required maxlength="100">            
+            <input type="button" value="Добавить">
+            <p></p>
+        </div>
+        <div class="results">
+            <ol></ol>
+        </div>
+        <div class="controlPanel" style="display: none;">
+            <div class="controlButtons">            
+                <i class="fa-solid fa-arrow-up" id="up"></i>
+                <i class="fa-solid fa-arrow-down" id="down"></i>
+                <i class="fa-solid fa-pen" id="edit"></i>
+                <i class="fa-solid fa-trash" id="delete"></i>
+            </div>
+        </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

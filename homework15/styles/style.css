@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background-color: rgba(250, 244, 219, 0.678);
+}
+
+body h3 {
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+body main {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 50px auto;
+  max-width: 50vw;
+}
+
+body main .form {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .form input[type="text"] {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body main .form input[type="button"] {
+  background-color: #d7ffdc;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+body main .form input[type="button"]:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+body main .form p {
+  margin: 0;
+  text-align: center;
+  color: red;
+  font-size: 16px;
+}
+
+body main .results ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+body main .results ol li {
+  padding: 20px;
+  border-top: 1px dotted grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+body main .results ol li p {
+  margin: 0;
+  max-height: 20px;
+  overflow: clip;
+}
+
+body main .results ol li .controlButtons {
+  display: none;
+}
+
+body main .results ol li:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(240, 248, 255, 0.582);
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+body main .results ol li:hover p {
+  display: block;
+  max-width: 80%;
+  margin: 0;
+  max-height: unset;
+}
+
+body main .results ol li:hover .controlButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body main .results ol li:hover .controlButtons i {
+  margin: 0px 7px;
+  color: dimgray;
+}
+
+@media screen and (max-width: 1024px) {
+  body main {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main {
+    max-width: 75vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body main {
+    max-width: 100vw;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  body main .results ol li {
+    padding: 5px;
+  }
+  body main .results ol li:hover p {
+    max-width: 90%;
+  }
+  body main .results ol li:hover .controlButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  body main .results ol li:hover .controlButtons i {
+    margin: 5px 5px;
+    color: dimgray;
+  }
+}
+/*# sourceMappingURL=style.css.map */

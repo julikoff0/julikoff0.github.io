@@ -52,7 +52,7 @@ function createBox (l, w, h) {
     });
 }
 
-const box1 = createBox(3, 3, 3);
+const box1 = createBox(5, 5, 5);
 const box2 = createBox(10, 10, 10);
 const box3 = createBox(15, 15, 15);
 const boxes = [box1,box2,box3];
