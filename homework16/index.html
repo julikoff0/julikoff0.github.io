@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Home work #16</title>
+    <meta charset="utf=8">
+    <meta http-eguiv="X-UA-Compatible" content="IE=edga">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./styles/style.css" rel="stylesheet">
+    </head>
+<body>
+    <main>
+        <div class="battle">
+            <div class="your-team">
+                
+            </div>
+            <div class="battle-info">
+                <h3>
+                    Статистика боя:
+                </h3>
+                <div class="battle-statistic"></div>    
+            </div>
+            <div class="enemy-team">
+                
+            </div>
+        </div>
+        <div class="battle-control-panel">
+            <div class="ships-setting">
+                <div class="ship-checkbox">
+                    <img src="./images/linkor.png">
+                    <input type="checkbox" name="linkor-in-game">
+                </div>
+                <div class="ship-checkbox">
+                    <img src="./images/aircraft-carrier.png">
+                    <input type="checkbox" name="aircraft-in-game">
+                </div>
+                <div class="ship-checkbox">
+                    <img src="./images/cruiser.png">
+                    <input type="checkbox" name="cruiser-in-game">
+                </div>
+                <div class="ship-checkbox">
+                    <img src="./images/boat.png">
+                    <input type="checkbox" name="boat-in-game">
+                </div>
+            </div>
+            <div class="ships-in-team">
+                <p>
+                    Выберите количество кораблей в команде:
+                </p>
+                <p>
+                    (макс. 8 шт.)
+                </p>
+                <input type="number" name="ships-amount" min="1" max="8">
+                <p id="error"></p>
+            </div>
+            <button id="start-game">
+                Начать бой!
+            </button>
+            <button id="fire">
+                Огонь!
+            </button>
+            <button id="next-move">
+                Завершить ход            
+            </button>
+        </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
