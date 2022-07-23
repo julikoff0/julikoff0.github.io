@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.19"
+  },
+  "name": "homework18",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./main.js"
+  },
+  "author": "Julikoff",
+  "license": "ISC",
+  "description": "My homework number 18"
+}
