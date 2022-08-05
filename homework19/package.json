@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.27.2",
+    "mime-types": "^2.1.35",
     "nodemon": "^2.0.19"
   },
   "name": "homework19",
