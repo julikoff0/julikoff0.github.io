@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 10px;
 }
-
 body main {
   margin: 100px auto;
   max-width: 1500px;
@@ -11,18 +10,13 @@ body main {
   padding: 20px;
   position: relative;
 }
-
 body main .cat {
   position: relative;
   left: 625px;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   width: 250px;
-  -webkit-transition: all 1.5s linear;
   transition: all 1.5s linear;
 }
-
 body main .cat img {
   height: 200px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -1,101 +1,63 @@
 body {
   margin: 0;
 }
-
 body main {
   max-width: 1600px;
   margin: 0px auto;
   height: 100vh;
   background-color: azure;
   border: 1px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-sizing: border-box;
 }
-
 body main .area {
   width: 1000px;
   height: 700px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: aqua;
   margin: 50px;
   border: 2px solid black;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
-
 body main .area .move {
   height: 50px;
   width: 50px;
   position: absolute;
-  background-color: #268062;
+  background-color: rgb(38, 128, 98);
   border: 2px solid black;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 325px;
   left: 475px;
 }
-
 body main .buttons {
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: ". up ." "left down right";
+  grid-template-areas: ". up ." "left down right";
 }
-
 body main .buttons button {
   margin: 2px;
   height: 40px;
   width: 40px;
-  background-color: #b6b6b6;
+  background-color: rgb(182, 182, 182);
   border: 1px solid black;
 }
-
 body main .buttons button:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
-
-body main .buttons button[name="up"] {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
+body main .buttons button[name=up] {
   grid-area: up;
 }
-
-body main .buttons button[name="left"] {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
+body main .buttons button[name=left] {
   grid-area: left;
 }
-
-body main .buttons button[name="down"] {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
+body main .buttons button[name=down] {
   grid-area: down;
 }
-
-body main .buttons button[name="right"] {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
+body main .buttons button[name=right] {
   grid-area: right;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
