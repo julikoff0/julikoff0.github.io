@@ -10,12 +10,11 @@ server.set('views', './views');
 server.use(express.static('./public'))
 
 server.get('/', (req, res) => {
-    res.sendFile((__dirname + '/public/home.html'))
+    res.render('index.ejs')
 })
 
 server.get('/products', (req, res) => {
-    req.statusCode(200);
-    res.end(JSON.stringify(productsArr));
+    res.send(JSON.stringify(productsArr));
 })
 
 server.listen(4308);

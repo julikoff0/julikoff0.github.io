@@ -6,21 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Shop</title>
-    <script src="../public/catalog.js"></script>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
 <body>
-    <main>
-        <div class="product-list">            
-            <% res.forEach( (item, index) => { %>
-                <div class="product" id="<%= index %>">
-                    <img src="<%= item.img %>">
-                    <h1><%= item.name %></h1>
-                    <p class="category"><%= item.category %></p>
-                    <h2><%= item.price %></h2>
-                </div>
-            <% }) %>
-            </div>   
+    <div class="header">
+        <div class="headerTop">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="Logo" class="logoImage">
+                </a>
+            </div>
+            <div class="authButtons">
+                <div class="button"><a href="#">Sign In</a></div>
+                <div class="button"><a href="#">Sign Up</a></div>
+            </div>
         </div>
-    </main>
+            <div class="navigation">
+                <a href="" class="navBlock">Homepage</a>
+                <a href="" class="navBlock">About Us</a>
+                <a href="" class="navBlock">Contacts</a>
+                <a href="" class="navBlock">Gallery</a>
+            </div>			
+    </div>
+    <div class="loader-page hidden">
+        <div class="loader"></div>
+    </div>
+    <main>       
+    </main>    
+    <div class="basement"></div>
+    <script src="./index.js"></script>
 </body>
 </html>
