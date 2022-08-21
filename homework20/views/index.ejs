@@ -1,35 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Shop</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+<%- include('./parts/head.ejs') %>  
 <body>
-    <div class="header">
-        <div class="headerTop">
-            <div class="logo">
-                <a href="#">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="Logo" class="logoImage">
-                </a>
-            </div>
-            <div class="authButtons">
-                <div class="button"><a href="#">Sign In</a></div>
-                <div class="button"><a href="#">Sign Up</a></div>
-            </div>
-        </div>
-            <div class="navigation">
-                <a href="" class="navBlock">Homepage</a>
-                <a href="" class="navBlock">About Us</a>
-                <a href="" class="navBlock">Contacts</a>
-                <a href="" class="navBlock">Gallery</a>
-            </div>			
-    </div>
-    <div class="loader-page hidden">
-        <div class="loader"></div>
-    </div>
+    <%- include('./parts/header.ejs') %>    
+    <%- include('./parts/loader.ejs') %>      
     <main>       
     </main>    
     <div class="basement"></div>

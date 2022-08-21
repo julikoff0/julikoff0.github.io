@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+.header {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.headerTop {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50%;
+       column-gap: 50%;
+  justify-content: space-between;
+  border: 2px dotted black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.logo img {
+  margin: 10px;
+  size: 50%;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.authButtons {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.authButtons a:hover {
+  transform: scale(1.1);
+  background-color: rgba(59, 186, 186, 0.6);
+  border-radius: 10%;
+}
+
+.authButtons a {
+  padding: 10px;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  border: 2px dotted black;
+  gap: 10%;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navBlock:hover {
+  transform: scale(1.1);
+  background-color: rgba(59, 186, 186, 0.6);
+  border-radius: 10%;
+}
+
+.navBlock {
+  padding: 10px;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  margin: 20px 0px;
+}
+main img {
+  max-width: 500px;
+}
+main .info {
+  padding: 10px;
+}
+main .info h1 {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+main .info .category {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9b9b9b;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+main .info h2 {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.basement {
+  height: 47px;
+  background-color: #222B3A;
+  margin-top: 10px;
+}/*# sourceMappingURL=product.css.map */
